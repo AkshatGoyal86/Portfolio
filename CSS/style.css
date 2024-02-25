@@ -1,0 +1,239 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Space Mono", Arial, serif;
+}
+
+/* main section start */
+.banner {
+    background-image: url(../Images/banner.jpg);
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.banner-inner {
+    background: rgba(255, 144, 0, 0.9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.banner-content {
+   color: white;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.profile-image {
+    width: 180px;
+    border-radius: 50%;
+}
+.banner-content h1 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 50px;
+    font-weight: 300;
+    transform: rotate(-5deg);
+    padding: 20px;
+}
+.banner-content h1:before {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 30px;
+    height: 4px;
+    content: '';
+    background: #fff;
+    margin-left: -15px;
+}
+.banner-content h1:after {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 30px;
+    height: 4px;
+    content: '';
+    background: #fff;
+    margin-right: -20px;
+}
+.banner-content h6 {
+    font-weight: 500;
+}
+/* main section end */
+
+
+/* navbar section start */
+.navbar {
+    transition: all 0.5s;
+}
+.navbar-scroll {
+    background-color: #fff;
+}
+/* navbar section end */
+
+
+/* about section start */
+.about ul li {
+    list-style: none;
+}
+.first-block {
+    width: 40%;
+    display: inline-block;
+    color: #000;
+    font-weight: bold;
+}
+.second-block {
+    width: 60%;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.5);
+}
+.about-social a {
+    background-color: gray;
+    padding: 15px;
+}
+.about-social a:hover {
+    background-color: #ff9000;
+}
+/* about section end */
+
+
+/* skills section start */
+.skills-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills-name {
+    padding: 8px;
+    margin-bottom: 5px;
+    margin-right: 6px;
+    background-color: rgba(153,153,153,0.2);
+    border-radius: 5px;
+    color: #666;
+    font-weight: 500;
+}
+.skills-border {
+    border-left: 2px solid #ff9000;
+}
+/* skills section end */
+
+
+/* project section start */
+.project-container {
+    color: white;
+    background-color: #ff9000;
+    text-align: center;
+}
+.project-container h2 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.project {
+    position: relative;
+    overflow: hidden;
+}
+.project img {
+    width: 100%;
+    height: 250px;
+    display: block;
+}
+.project .project-box {
+    width: 92%;
+    height: 92%;
+    position: absolute;
+    top: 4.3%;
+    left: 4.3%;
+}
+.project .project-box:before,
+.project .project-box:after {
+    content: "";
+    width: 95%;
+    height: 47%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: all 0.6s;
+    opacity: 0;
+}
+.project .project-box:before {
+    top: -20%;
+}
+.project .project-box:after {
+    bottom: -20%;
+}
+.project:hover .project-box:before {
+    top: 3%;
+    opacity: 0.8;
+}
+.project:hover .project-box:after {
+    bottom: 3%;
+    opacity: 0.8;
+}
+.project .project-content {
+    color: white;
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+    transform: rotate(90deg);
+    opacity: 0;
+}
+.project:hover .project-content {
+    opacity: 1;
+    transform: rotate(0deg);
+    transition: all 0.6s;
+}
+/* project section start */
+
+
+/* contact section start */
+.contact1 {
+    height: 400px;
+    background-color: #ff9000;
+    color: white;
+    text-align: center;
+}
+.contact1 h1 {
+    padding-top: 125px;
+}
+.contact2 input, textarea {
+    padding: 10px;
+    margin-top: 40px;
+}
+.contact2-button {
+    background-color: #ff9000;
+    color: white;
+    margin-top: 20px !important;
+}
+.contact2 img{
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 700px;
+}
+/* contact section end */
+
+
+/* copyright section start */
+.copyright a{
+    color: #ff9000;
+    text-decoration: none;
+    font-weight: 600;
+}
+/* copyright section end */
+
+
+@media only screen and (max-width: 764px) {
+    .contact2 img{
+        display: none;
+    }
+    .contact2 input, textarea {
+        width: 100%;
+    }
+}

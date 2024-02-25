@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshat Goyal</title>
+<link rel="website icon" href="Images/website-icon.png">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="CSS/style.css">
+<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+
+</head>
+<body>
+
+<div id="home"></div>
+    
+    <div class="banner">
+        <div class="banner-inner text-center">
+            <div class="banner-content">
+                <a target="_blank" href="Images/profile-image.jpg"><img class="profile-image" src="Images/profile-image.jpg"></a>
+                <h1>Akshat Goyal</h1>
+                <h6>Web Developer</h6>
+                <div class="container mx-auto d-flex justify-content-center">
+                    <a target="_blank" href="https://www.instagram.com/akshatgoyal87/" class="p-4"><img src="Images/instagram.png" width="32px"></a>
+                    <a target="_blank" href="https://twitter.com/AkshatGoyal86" class="p-4"><img src="Images/twitter.png" width="30px"></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/AkshatGoyal86/" class="p-4"><img src="Images/linkedin.png" width="30px"></a>
+                    <a target="_blank" href="https://github.com/AkshatGoyal86" class="p-4"><img src="Images/github.png" width="30px"></a>   
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!----------------------------------------------------------------------------------------------------------------------->
+
+
+    <div class="row">
+        <div class="col">
+            <nav class="navbar navbar-expand-md navbar-white fixed-top">
+                <div class="navbar-brand ps-sm-3">Portfolio</div>
+
+                <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse item-left" id="navbar">
+                    <ul class="navbar-nav ms-auto text-center pe-4">
+                        <li class="nav-item active">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skills" class="nav-link">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#projects" class="nav-link">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+
+    <script>
+        const navEl = document.querySelector('.navbar');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY >= 560) {
+                navEl.classList.add('navbar-scroll');
+            }
+            else if (window.scrollY < 560) {
+                navEl.classList.remove('navbar-scroll');
+            }
+        });
+    </script>
+
+
+<!----------------------------------------------------------------------------------------------------------------------->
+
+<div id="about"></div>
+
+    <h1 class="text-center my-5">About Me</h1>
+
+    <div class="container-fluid text-left">
+        <div class="row text-left">
+
+            <div class="col-md-4 col-lg-4 col-xl-4 mt-5 about">
+                <ul>
+                    <li><span class="first-block">Full Name:</span><span class="second-block">Akshat Goyal</span></li>
+                    <li><span class="first-block">Date Of Birth:</span><span class="second-block">08-06-2005</span></li>
+                    <li><span class="first-block">Phone:</span><span class="second-block">91+ 9717289062</span></li>
+                    <li><span class="first-block">Email:</span><span class="second-block">goyal.akshat@outlook.com</span></li>
+                    <li><span class="first-block">Address:</span><span class="second-block" style="display: block;">G-72, Gali No.5, Vishwas Park, Uttam Nagar, Delhi-110059</span></li>
+                </ul>
+            </div>
+
+            <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mt-4">
+                <h2>Hello There!</h2>
+                <p>Hello! I’m Akshat Goyal, a passionate web developer based in New Delhi, India. With a blend of creativity and technical expertise, I transform ideas into functional and visually appealing websites.</p>
+                <p>I thrive on solving complex puzzles and turning them into elegant solutions. Whether it’s front-end magic or back-end wizardry, I’m always up for the challenge. My journey began with HTML and CSS, and I’ve since delved into JavaScript, React, and Node.js. Curiosity fuels my learning, and I’m constantly exploring new technologies.</p>
+                <div class="container mx-auto d-flex gap-4 about-social">
+                    <a target="_blank" href="https://www.instagram.com/akshatgoyal87/"><img src="Images/instagram.png" width="20px"></a>
+                    <a target="_blank" href="https://twitter.com/AkshatGoyal86"><img src="Images/twitter.png" width="20px"></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/AkshatGoyal86/"><img src="Images/linkedin.png" width="20px"></a>
+                    <a target="_blank" href="https://github.com/AkshatGoyal86"><img src="Images/github.png" width="20px"></a>   
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!----------------------------------------------------------------------------------------------------------------------->
+<div id="skills"></div>
+
+<div class="container mt-5">
+    <div class="row">
+
+        <h1 class="text-center my-5">Skills</h1>
+        
+        <div class="col-md-3 mt-5 skills-border">
+            <h4>Frontend</h4>
+            <div class="skills-box">
+                <span class="skills-name border border-danger">HTML</span>
+                <span class="skills-name border border-primary">CSS</span>
+                <span class="skills-name border border-warning">JavaScript</span>
+                <span class="skills-name border border-success">Bootstrap</span>
+            </div>
+        </div>
+
+        <div class="col-md-3 mt-5 skills-border">
+            <h4>Backend</h4>
+            <div class="skills-box">
+                <span class="skills-name border border-info">React Js</span>
+                <span class="skills-name border border-success">Node Js</span>
+                <span class="skills-name border border-secondary">Express Js</span>
+            </div>
+        </div>
+
+        <div class="col-md-3 mt-5 skills-border">
+            <h4>Database</h4>
+            <div class="skills-box">
+                <span class="skills-name border border-success">MongoDB</span>
+                <span class="skills-name border border-primary">MySql</span>
+            </div>
+        </div>
+
+        <div class="col-md-3 mt-5 skills-border">
+            <h4>Devops</h4>
+            <div class="skills-box">
+                <span class="skills-name border border-danger">GIT</span>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!----------------------------------------------------------------------------------------------------------------------->
+
+<div id="projects"></div>
+
+    <div class="container-fluid mt-5 project-container">
+        <div class="container">
+            <div class="row">
+
+                <h2>Projects</h2>
+            
+                <div class="col-md-3 p-2 project">
+                    <a target="_blank" href="https://akshatgoyal86.github.io/E-commerce/"><img src="Images/project-1.jpg">
+                        <div class="project-box">
+                            <div class="project-content">
+                                <h3>E-Commerce</h3>
+                                <p>HTML, CSS, Bootstrap & JavaScript</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-3 p-2 project">
+                    <a target="_blank" href="https://akshatgoyal86.github.io/Flipkart-Clone/"><img src="Images/project-2.png">
+                        <div class="project-box">
+                            <div class="project-content">
+                                <h3>Flipkart-Clone</h3>
+                                <p>HTML, CSS, Bootstrap & JavaScript</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-3 p-2 project">
+                    <a target="_blank" href="https://akshatgoyal86.github.io/JobEntry-Clone/"><img src="Images/project-3.png">
+                        <div class="project-box">
+                            <div class="project-content">
+                                <h3>JobEntry-Clone</h3>
+                                <p>HTML, CSS, Bootstrap & JavaScript</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-3 p-2 project">
+                    <a target="_blank" href="https://akshatgoyal86.github.io/CoderMantra-Clone/"><img src="Images/project-5.png">
+                        <div class="project-box">
+                            <div class="project-content">
+                                <h3>CoderMantra-Clone</h3>
+                                <p>HTML & CSS</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-3 p-2 project">
+                    <a target="_blank" href="https://akshatgoyal86.github.io/Vsit-Clone/"><img src="Images/project-4.jpg">
+                        <div class="project-box">
+                            <div class="project-content">
+                                <h3>VSIT-Clone</h3>
+                                <p>HTML & CSS</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!----------------------------------------------------------------------------------------------------------------------->
+
+<div id="contact"></div>
+
+    <div class="container-fluid contact1 mt-5">
+        <h1>Hire Me!</h1>
+        <h5>Want to hire me? Contact me through my E-mail...</h5>
+        <a target="_blank" class="btn bg-white active" style="color: #ff9000;" href="mailto:goyal.akshat@outlook.com" role="button">CONTACT ME</a>
+    </div>
+
+    <div class="container-fluid contact2">
+        <div class="row">
+            <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mt-4">
+                <img src="Images/contact.jpg">
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mt-4">
+                <h2>Contact</h2>
+                <input type="text" name="firstname" placeholder="Your firstname" required>
+                <input type="text" name="lastname" placeholder="Your lastname">
+                <input type="email" name="email" size="50px" placeholder="Your email address" required>
+                <input type="text" name="subject" size="50px" placeholder="Your subject of this messege" required>
+                <textarea name="messege" cols="49" rows="10" placeholder="Your messege" required></textarea>
+                <input type="submit" name="submit" value="Send Messege" class="btn contact2-button">
+            </div>
+        </div>
+    </div>
+
+
+<!----------------------------------------------------------------------------------------------------------------------->
+
+
+    <div class="container py-4 mt-4 text-center border-top border-secondary copyright">
+        Copyright © 2024 All rights reserved | Made with <img src="Images/red-heart.png" width="20px"> by
+        <a target="_blank" href="https://www.linkedin.com/in/AkshatGoyal86/"> Akshat Goyal. </a>
+    </div>
+
+
+</body>
+</html>
