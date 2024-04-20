@@ -39,7 +39,7 @@
     <div class="row">
         <div class="col">
             <nav class="navbar navbar-expand-md navbar-white fixed-top">
-                <div class="navbar-brand ps-sm-3">Portfolio</div>
+                <a href="index.html" class="navbar-brand ps-sm-3">Portfolio</a>
 
                 <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
                     <span class="navbar-toggler-icon"></span>
@@ -73,10 +73,10 @@
         const navEl = document.querySelector('.navbar');
 
         window.addEventListener('scroll', () => {
-            if (window.scrollY >= 560) {
+            if (window.scrollY >= 520) {
                 navEl.classList.add('navbar-scroll');
             }
-            else if (window.scrollY < 560) {
+            else if (window.scrollY < 520) {
                 navEl.classList.remove('navbar-scroll');
             }
         });
@@ -130,15 +130,15 @@
             <div class="skills-box">
                 <span class="skills-name border border-danger">HTML</span>
                 <span class="skills-name border border-primary">CSS</span>
-                <span class="skills-name border border-warning">JavaScript</span>
                 <span class="skills-name border border-success">Bootstrap</span>
+                <span class="skills-name border border-warning">JavaScript</span>
+                <span class="skills-name border border-info">React Js</span>
             </div>
         </div>
 
         <div class="col-md-3 mt-5 skills-border">
             <h4>Backend</h4>
             <div class="skills-box">
-                <span class="skills-name border border-info">React Js</span>
                 <span class="skills-name border border-success">Node Js</span>
                 <span class="skills-name border border-secondary">Express Js</span>
             </div>
@@ -153,9 +153,10 @@
         </div>
 
         <div class="col-md-3 mt-5 skills-border">
-            <h4>Devops</h4>
+            <h4>Others</h4>
             <div class="skills-box">
                 <span class="skills-name border border-danger">GIT</span>
+                <span class="skills-name border border-info">GITHUB</span>
             </div>
         </div>
 
@@ -167,68 +168,55 @@
 
 <div id="projects"></div>
 
-    <div class="container-fluid mt-5 project-container">
-        <div class="container">
-            <div class="row">
+    <div class="container mt-5">
+        <div class="row text-center">
 
-                <h2>Projects</h2>
+            <h2 class="my-5">Projects</h2>
             
-                <div class="col-md-3 p-2 project">
-                    <a target="_blank" href="https://akshatgoyal86.github.io/E-commerce/"><img src="Images/project-1.jpg">
-                        <div class="project-box">
-                            <div class="project-content">
-                                <h3>E-Commerce</h3>
-                                <p>HTML, CSS, Bootstrap & JavaScript</p>
-                            </div>
+            <div class="col-md-4 p-2 project">
+                <a target="_blank" href="https://github.com/AkshatGoyal86/BookNest.git"><img src="Images/project-4.jpg">
+                    <div class="project-box">
+                        <div class="project-content">
+                            <h3>Hootle Booking</h3>
+                            <p>HTML, CSS, Bootstrap, JavaScript, Node.js, Express.js & MongoDB</p>
                         </div>
-                    </a>
-                </div>
-
-                <div class="col-md-3 p-2 project">
-                    <a target="_blank" href="https://akshatgoyal86.github.io/Flipkart-Clone/"><img src="Images/project-2.png">
-                        <div class="project-box">
-                            <div class="project-content">
-                                <h3>Flipkart-Clone</h3>
-                                <p>HTML, CSS, Bootstrap & JavaScript</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-3 p-2 project">
-                    <a target="_blank" href="https://akshatgoyal86.github.io/JobEntry-Clone/"><img src="Images/project-3.png">
-                        <div class="project-box">
-                            <div class="project-content">
-                                <h3>JobEntry-Clone</h3>
-                                <p>HTML, CSS, Bootstrap & JavaScript</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-3 p-2 project">
-                    <a target="_blank" href="https://akshatgoyal86.github.io/CoderMantra-Clone/"><img src="Images/project-5.png">
-                        <div class="project-box">
-                            <div class="project-content">
-                                <h3>CoderMantra-Clone</h3>
-                                <p>HTML & CSS</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-3 p-2 project">
-                    <a target="_blank" href="https://akshatgoyal86.github.io/Vsit-Clone/"><img src="Images/project-4.jpg">
-                        <div class="project-box">
-                            <div class="project-content">
-                                <h3>VSIT-Clone</h3>
-                                <p>HTML & CSS</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
+                    </div>
+                </a>
             </div>
+            
+            <div class="col-md-4 p-2 project">
+                <a target="_blank" href="https://github.com/AkshatGoyal86/E-commerce.git"><img src="Images/project-1.jpg">
+                    <div class="project-box">
+                        <div class="project-content">
+                            <h3>E-Commerce</h3>
+                            <p>HTML, CSS, Bootstrap & JavaScript</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 p-2 project">
+                <a target="_blank" href="https://github.com/AkshatGoyal86/Flipkart-Clone.git"><img src="Images/project-2.png">
+                    <div class="project-box">
+                        <div class="project-content">
+                            <h3>Flipkart Clone</h3>
+                            <p>HTML, CSS, Bootstrap & JavaScript</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 p-2 project">
+                <a target="_blank" href="https://github.com/AkshatGoyal86/JobEntry-Clone.git"><img src="Images/project-3.png">
+                    <div class="project-box">
+                        <div class="project-content">
+                            <h3>JobEntry Clone</h3>
+                            <p>HTML & CSS</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
         </div>
     </div>
 
@@ -264,7 +252,7 @@
 
 
     <div class="container py-4 mt-4 text-center border-top border-secondary copyright">
-        Copyright © 2024 All rights reserved | Made with <img src="Images/red-heart.png" width="20px"> by
+        Copyright © 2024 All rights reserved | Made by
         <a target="_blank" href="https://www.linkedin.com/in/AkshatGoyal86/"> Akshat Goyal. </a>
     </div>
 

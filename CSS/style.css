@@ -69,6 +69,8 @@
 }
 .navbar-scroll {
     background-color: #fff;
+    /* background: transparent;
+    backdrop-filter: blur(10px); */
 }
 /* navbar section end */
 
@@ -119,15 +121,6 @@
 
 
 /* project section start */
-.project-container {
-    color: white;
-    background-color: #ff9000;
-    text-align: center;
-}
-.project-container h2 {
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
 .project {
     position: relative;
     overflow: hidden;
@@ -204,7 +197,7 @@
 }
 .contact2 input, textarea {
     padding: 10px;
-    margin-top: 40px;
+    margin-top: 25px;
 }
 .contact2-button {
     background-color: #ff9000;
@@ -212,10 +205,8 @@
     margin-top: 20px !important;
 }
 .contact2 img{
-    align-items: center;
-    justify-content: center;
     width: 95%;
-    height: 700px;
+    height: 620px;
 }
 /* contact section end */
 
